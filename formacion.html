@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formación, Talleres y Premios - Verónica Gallego</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+  <div class="container">
+    <header class="py-5 text-center bg-teal-200 ">
+        <h1 class="display-4 fw-bold custom-name text-light ">Verónica Gallego</h1>
+        <p class=" h4 text-semibold text-teal-700">Diseño & Desarrollo Web</p>
+        <p class="h5 text-teal-800">Código consciente para potenciar tu expanción digital</p>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm ">
+        <div class="container">
+          <img src="img/LOGO.png" alt="Logo MyloSoul" width="60" height="60" class="me-2 rounded-3 shadow-sm">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              
+              <li class="nav-item">
+                <a class="nav-link text-teal-600 fw-semibold" href="index.html#sobremi">Sobre Mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-teal-600 fw-semibold" href="index.html#formacion">Formación</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link text-teal-600 fw-semibold" href="index.html#proyectos">Proyectos</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link text-teal-600 fw-semibold" href="index.html#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+ </nav>
+ <main>
+    <div>
+    <h2 class="mb-3 text-teal-400 text-bold text-center mt-4">Formación, Talleres y Reconocimientos</h2>
+    </div>
+    <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title text-teal-800">Curso de JavaScript</h3>
+              <p class="card-text">Coderhouse · 2025</p>
+              <p class="card-text small text-muted">Curso en donde se abordaron fundamentos, 
+                estructuras, DOM, eventos, arrays, objetos y desarrollo de un proyecto integrador.</p>
+                <a class="btn btn-teal-300 btn-lg mt-4" data-bs-toggle="modal" data-bs-target="#modalJS">
+                    Ver Certificado
+                </a>
+            </div>
+          </div>
+        </div>
+        
+    <!-- Sección de talleres con certificados en modal -->
+    <section class="mb-5">
+      <h2  class="mb-3 text-teal-400 text-bold text-center mt-4">Talleres Realizados</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title text-teal-800">Taller Efectos Dinámicos con Illustrator</h3>
+              <p class="card-text">Instituto Da Vinci · 2024</p>
+              <p class="card-text small text-muted">
+                Taller donde se exploraron técnicas avanzadas de efectos visuales y animación en 
+                Adobe Illustrator.
+              </p>
+              <a class="btn btn-teal-300 btn-lg mt-4" data-bs-toggle="modal" data-bs-target="#modalUX">
+                Ver Certificado</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title text-teal-800 mb-4">Taller de Figma</h3>
+              <p class="card-text">Instituto Da Vinci · 2024</p>
+              <p class="card-text small text-muted">
+                Taller intensivo donde se trabajaron conceptos clave de diseño de interfaces, 
+                prototipado y buenas prácticas en Figma.
+              </p>
+              <a class="btn btn-teal-300 btn-lg mt-4" data-bs-toggle="modal" data-bs-target="#modalMarca">
+                Ver Certificado</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title text-teal-800">Tutoría de HTML, CSS y JavaScript</h3>
+                <p class="card-text">Instituto Da Vinci · 2024</p>
+                <p class="card-text small text-muted">
+                  Tutoría técnica intensiva sobre estructura HTML, estilos CSS y lógica básica en JavaScript
+                   aplicada a proyectos front-end.
+                </p>
+                <a class="btn btn-teal-300 btn-lg mt-4" data-bs-toggle="modal" data-bs-target="#modalTutoria">
+                  Ver Certificado
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title text-teal-800">Tutoría de Photoshop</h3>
+                <p class="card-text">Instituto Da Vinci · 2024</p>
+                <p class="card-text small text-muted">
+                  Tutoría intensiva de enfocada en técnicas básicas de edición, herramientas esenciales y 
+                  flujo de trabajo dentro del entorno de Adobe Photoshop.
+                </p>
+                <a class="btn btn-teal-300 btn-lg mt-4" data-bs-toggle="modal" data-bs-target="#modalPhotoshop">
+                  Ver Certificado
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title text-teal-800">Taller de Dibujo Manual</h3>
+                <p class="card-text">Instituto Da Vinci · 2024</p>
+                <p class="card-text small text-muted">
+                  Taller intensivo  orientado al desarrollo de habilidades manuales en técnicas de dibujo artístico, observación y expresión gráfica tradicional.
+                </p>
+                <a class="btn btn-teal-300 btn-lg mt-4" data-bs-toggle="modal" data-bs-target="#modalDibujo">
+                  Ver Certificado
+                </a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <!-- Modales de comprobantes -->
+    <div class="modal fade" id="modalJS" tabindex="-1">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header text-light bg-teal-200">
+              <h4 class="modal-title ">Certificado - Curso de JavaScript</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="img/talleres/certificadojs.png" alt="Certificado JavaScript" class="img-fluid rounded">
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="modal fade" id="modalUX" tabindex="-1">
+      <div class="modal-dialog modal-md modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header text-light bg-teal-200">
+            <h4 class="modal-title">Taller Efectos Dinámicos con Illustrator</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="img/talleres/ai-dinamico.png" alt="Certificado ilustreitor" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalMarca" tabindex="-1">
+      <div class="modal-dialog modal-md modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header text-light bg-teal-200">
+            <h4 class="modal-title">Taller de Figma</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="img/talleres/taller-figma.png" alt="Certificado figma" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalTutoria" tabindex="-1">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header text-light bg-teal-200">
+              <h4 class="modal-title">Certificado - Tutoría HTML, CSS y JavaScript</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="img/talleres/tutoria-html.png" alt="Certificado Tutoría HTML, CSS y JS" class="img-fluid rounded">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalPhotoshop" tabindex="-1">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header text-light bg-teal-200">
+              <h4 class="modal-title">Certificado - Tutoría Photoshop</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="img/talleres/tutoria-photoshop.png" alt="Certificado Tutoría Photoshop" class="img-fluid rounded">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalDibujo" tabindex="-1">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header text-light bg-teal-200">
+              <h4 class="modal-title">Certificado - Taller de Dibujo Manual</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="img/talleres/dibujo-a-mano.png" alt="Certificado Taller de Dibujo Manual" class="img-fluid rounded">
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="py-5 bg-light">
+        <div class="container">
+          <!-- Título principal -->
+          <h2 class="mb-5 text-teal-400 fw-bold text-center">Reconocimiento · Concurso Impulso</h2>
+      
+          <div class="row justify-content-center gy-5 mt-3">
+            <!-- Imagen -->
+            <div class="col-lg-5 text-center">
+              <img src="img/talleres/premio.png" alt="Certificado Mención Especial" class="img-fluid rounded shadow-lg">
+            </div>
+      
+            <!-- Texto -->
+            <div class="col-lg-7">
+              <h3 class="text-teal-300 text-center mb-5 mt-1">Mención Especial - Escuela Da Vinci</h3>
+      
+              <p class="mb-3">
+                El día <strong class="text-teal-700">5 de octubre de 2024</strong>, recibí una <strong class="text-teal-700">Mención Especial</strong> en el marco del 
+                <em>Concurso Impulso</em> organizado por la Escuela Da Vinci. Este reconocimiento fue otorgado por mi trabajo 
+                destacado en el área de diseño digital, siendo elegida entre numerosos proyectos por su creatividad, originalidad 
+                y enfoque estratégico.
+              </p>
+      
+              <p class="mb-4">
+                Este logro representa un gran impulso para seguir expandiendo mi camino profesional con propósito, técnica y sensibilidad visual.
+              </p>
+            </div>
+          </div>
+      
+          <!-- Video centrado debajo -->
+          <div class="row mt-5">
+            <div class="col-12 d-flex justify-content-center">
+              <div style="max-width: 700px; width: 100%;">
+                <div class="ratio ratio-16x9 rounded shadow">
+                  <iframe 
+                    src="https://www.youtube.com/embed/0paNfX1N5NU" 
+                    title="Video de YouTube" 
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      
+      
+  </div>
+  
+</main>
+<footer class="py-5 text-center bg-teal-200">
+  <div class="container text-center">
+    <p class="mb-1 fw-bold fs-5 text-teal-600">Verónica Elizabeth Gallego</p>
+    <p class="mb-1 text-teal-800">mylosoul2@gmail.com</p>
+    <p class="mb-3 text-teal-800">2344413407 · Buenos Aires, Argentina</p>
+
+    <div class="d-flex justify-content-center gap-4 mb-2">
+      <a href="https://www.instagram.com/mylo_soul/" target="_blank" class="text-teal-500 fs-4" aria-label="Instagram">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=61571327818606" target="_blank" class="text-primary fs-4" aria-label="Facebook">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/veronica-gallego-5338122b3" target="_blank" class="text-info fs-4" aria-label="LinkedIn">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://wa.me/5492344413407" target="_blank" class="text-success fs-4" aria-label="WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </div>
+
+    <small class="text-muted text-teal-800">&copy; 2025 · Todos los derechos reservados</small>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </div>
+</body>
+</html>
